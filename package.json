@@ -29,8 +29,8 @@
     "test-watch": "ZHC_TEST=true jest test --watch",
     "clean": "rimraf index* devices lib converters",
     "build": "tsc",
-    "prepack": "npm run clean && npm run build"
-    "postinstall": "tsc",
+    "prepack": "npm run clean && npm run build",
+    "postinstall": "tsc"
   },
   "author": "Koen Kanters",
   "license": "MIT",
