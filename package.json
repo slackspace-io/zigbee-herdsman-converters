@@ -5,10 +5,10 @@
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
-    "/src/index.js",
-    "/src/converters",
-    "/src/devices",
-    "/src/lib",
+    "/index.js",
+    "/converters",
+    "/devices",
+    "/lib",
     "CHANGELOG.md"
   ],
   "repository": {
