@@ -5,10 +5,10 @@
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
-    "/index.js",
-    "/converters",
-    "/devices",
-    "/lib",
+    "/src/index.js",
+    "/src/converters",
+    "/src/devices",
+    "/src/lib",
     "CHANGELOG.md"
   ],
   "repository": {
@@ -29,8 +29,7 @@
     "test-watch": "ZHC_TEST=true jest test --watch",
     "clean": "rimraf index* devices lib converters",
     "build": "tsc",
-    "prepack": "npm run clean && npm run build",
-    "postinstall": "tsc"
+    "prepack": "npm run clean && npm run build"
   },
   "author": "Koen Kanters",
   "license": "MIT",
