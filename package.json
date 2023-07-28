@@ -30,6 +30,7 @@
     "clean": "rimraf index* devices lib converters",
     "build": "tsc",
     "prepack": "npm run clean && npm run build"
+    "postinstall": "tsc",
   },
   "author": "Koen Kanters",
   "license": "MIT",
